@@ -1,0 +1,239 @@
+
+body {
+margin : 0;
+padding : 0;
+font : 73% "lucida sans", tahoma, "Trebuchet MS", arial, verdana, sans-serif;
+color : white;
+background : black;
+}
+#container {
+width : 99.5%;
+margin-left : auto;
+margin-right : auto;
+padding : 10px;
+line-height : 1.5em;
+}
+#banner {
+height : 150px;
+padding : 0px;
+background : url(images/imag001.jpg) no-repeat;
+text-align: center;
+padding-top:40px;
+padding-bottom: 50px;
+color :orangered;
+
+
+}
+#banner h1 {margin : 0;
+padding : 5px;
+background : transparent;
+color :white;
+}
+#navlist {
+padding : 4px 5px 5px 0;
+margin : 0 0 20px 0;
+text-align : left;
+letter-spacing : 3px;
+color :white;
+background : orangered;
+}
+#navlist li {
+list-style : none;
+margin : 0;
+display : inline;
+}
+#navlist li a {
+padding : 5px 0.75em;
+margin : 0;
+color :white;
+background :orangered;
+text-decoration : none;
+}
+#navlist li a:link {
+color :white;
+background :orangered;
+}
+#navlist li a:visited {
+color :white;
+background :orangered;
+}
+#navlist li a:hover {
+color : #000;
+background : #7ABA2E;
+}
+#navlist li a#current {
+color :white;
+background : #7ABA2E;
+}
+.menu ul li {
+line-height : 1.8em;
+margin : 0 10px 0 0;
+padding : 0;
+list-style-type : square;
+color :orangered;
+background : inherit;
+}
+.menu ul li a {
+color : #f17c0b;
+background : inherit;
+}
+.menu ul li a:hover {
+color : #7ABA2E;
+background : inherit;
+}
+#content {
+padding : 10px;
+margin-left : 170px;
+margin-right : 170px;
+border-left : 1px dashed white;
+border-right : 1px dashed white;
+color : white;
+background-color : black;
+
+}
+#content p {
+margin : 20px;
+}
+#sidebar-a {
+float : left;
+width : 140px;
+margin-left : 5px;
+padding : 0 5px 0 5px;
+color : white;
+background : black;
+}
+#sidebar-b {
+float : right;
+width : 140px;
+margin : 0 5px 0 0 ;
+padding : 0 5px 15px 5px;
+color : white;
+background : black;
+}
+#footer {
+height:50px;
+clear : both;
+padding : 20px;
+margin : 0;
+background : orangered;
+color : white;
+}
+
+a {
+text-decoration : none;
+color : white;
+background : inherit;
+}
+a:hover {
+text-decoration : underline;
+color : white;
+background : inherit;
+}
+a img {
+border : 0;
+}
+.border {
+padding : 10px;
+margin : 10px;
+border : 1px solidorangered;
+}
+.imgleft {
+float : left;
+border : 1px solid #90b905;
+margin : 5px 10px 10px 15px;
+padding : 5px;
+}
+h1 {
+margin : 20px;
+padding : 5px;
+font-size : 150%;
+letter-spacing : 3px;
+text-transform: uppercase;
+color :white;
+background :orangered;
+text-align: center;
+}
+h2 {
+padding-left : 20px;
+font-size : 140%;
+text-transform : uppercase;
+letter-spacing : 10px;
+color :orangered;
+background : inherit;
+}
+h3 {
+padding : 5px;
+text-transform : uppercase;
+font-size : 110%;
+color :white;
+background :orangered;
+}
+h4 {
+padding : 20px;
+text-transform : uppercase;
+font-size : 110%;
+color :white;
+background :orangered;
+}
+h5 {
+padding : 5px;
+font-size : 100%;
+text-transform: uppercase;
+color: black;
+background-color: orangered;
+
+}
+blockquote {
+font-weight : bold;
+font-style : italic;
+color : #b29b35;
+}
+.clear {
+clear : both;
+width : 100%;
+}
+.col3,.col3center {
+float: left;
+width: 30.5%;
+}
+.col3center {
+margin: 0 3%;
+}
+
+
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid orangered;
+  color: white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: black;
+}
+
+input[type=submit] {
+  background-color: orangered;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: black;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+}
